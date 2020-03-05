@@ -1,0 +1,20 @@
+{
+  "name": "graphql-boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "author": "iijaachok",
+  "license": "MIT",
+  "main": "",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "node server.js",
+    "lint": "eslint --ext .js ."
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "apollo-server": "^2.11.0",
+    "merge-graphql-schemas": "^1.7.6"
+  }
+}
